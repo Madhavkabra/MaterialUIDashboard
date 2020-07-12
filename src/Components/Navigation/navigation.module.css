@@ -1,0 +1,139 @@
+.navWrapper {
+  position: fixed;
+  left: 0;
+  background-color: var(--lightBg);
+  min-width: 260px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  border-width: 0.1rem;
+  z-index: -5;
+  color: var(--whiteText);
+  max-height: calc(100% - 40px);
+  overflow: auto;
+  width: 260px;
+}
+
+.navBlocksWrapper{
+  font-size: 14px;
+  padding: 25px 15px 0px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navBlock{
+  text-align: left;
+  font-weight: 400;
+}
+.navBarIcons {
+  margin-right: 10px;
+}
+
+.blockContent {
+  padding: 15px 0;
+}
+
+.navText {
+  padding: 15px;
+}
+
+.navText:hover{
+  background-color: #393D44;
+  border-radius: 4px;
+}
+
+.profileWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 20px 20px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.updateBox {
+  padding: 5px 8px;
+  background: var(--purple);
+  font-size: 13px;
+  border-radius: 15px;
+  float: right;
+}
+
+.profileImage {
+  border-radius: 60px;
+}
+
+.userName {
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.designation {
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.navFooter {
+  margin: 20px 20px 40px 20px;
+  padding: 15px;
+  background-color: var(--darkBg);
+  text-align: left;
+  border-radius: 5px;
+}
+
+.footerText {
+  color: var(--purple);
+  margin-top: 10px;
+}
+
+.footerText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobileNavDisplay {
+    display: block;
+    animation: slide-in 0.5s forwards;
+    -webkit-animation: slide-in 0.5s forwards;
+    height: 100%;
+    top: 0px;
+    z-index: 10;
+  }
+
+  .navWrapper {
+    max-height: 100%;
+   }
+
+  @keyframes slide-in {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0%); }
+  }
+
+  .mobileNavHide {
+    animation: slide-out 0.5s forwards;
+    -webkit-animation: slide-out 0.5s forwards;
+    z-index: 10;
+  }
+
+  @keyframes slide-out {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
