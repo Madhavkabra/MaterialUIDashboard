@@ -1,0 +1,16 @@
+.panelCollapse {
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height .5s ease;
+}
+.panelClose {
+  max-height: 0;
+}
+
+.listBlock {
+  padding-left: 25px;
+}
+
+.angle {
+  float: right;
+}
