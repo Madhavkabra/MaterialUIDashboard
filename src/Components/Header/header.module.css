@@ -12,6 +12,7 @@
 .logoImage {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .mobileMenuIcon {
@@ -19,7 +20,14 @@
 }
 
 .navIcons {
-  margin-right: 25px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.navIcons:hover {
+  padding: 12px;
+  background-color: #393D44;
+  border-radius: 20px;
 }
 
 .profileImage {
@@ -27,15 +35,21 @@
   margin-right: 10px;
 }
 
+.iconsBlock {
+  margin-right: 10px;
+}
+
 .iconWrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
   .mobileMenuIcon {
     display:block;
+    cursor: pointer;
   }
 
   .logo {
@@ -44,5 +58,12 @@
 
   .userName {
     display: none;
+  }
+
+  .backDropShadow {
+    content: "";
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 0;
   }
 }
