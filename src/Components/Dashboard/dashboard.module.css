@@ -61,6 +61,33 @@
   margin-left: 8px;
 }
 
+.seeAllWrapper {
+  padding: 10px 10px;
+  margin: 20px 15px 15px 0;  width: fit-content;
+  float: right;
+  border-radius: 5px;
+}
+
+.seeAllWrapper:hover {
+  background: #373B43;
+}
+
+.seeAllText {
+  font-weight: 500;
+  font-size: 15px;
+  margin-right: 15px;
+}
+
+.verticalMenu:hover {
+  padding: 12px 20px;
+  background-color: #393D44;
+  border-radius: 20px;
+}
+
+.verticalMenu {
+  padding: 12px 20px;
+}
+
 .progressBar {
   border: 1px solid var(--purple);
   height: 1px;
@@ -68,7 +95,6 @@
   margin-top: 20px;
   margin-left: 7px;
   min-width: 97px;
-  z-index: 5;
 }
 
 .grayProgressBar {
@@ -111,6 +137,10 @@
   display: flex;
   align-items: center;
   box-shadow: 1px 8px 6px -10px black;
+}
+
+.UserGraphContainer {
+  height: 200px;
 }
 
 .blockDigit {
@@ -199,6 +229,32 @@
   justify-content:space-between;
 }
 
+.performChartWrapper {
+  margin-top: 30px
+}
+
+.rightChartText{
+  font-weight: 500;
+  padding: 10px 20px 10px 15px;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+
+.graphLowerText {
+  padding: 15px;
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.graphTopWrapper {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+}
+
 .userTopWrapper {
   padding: 15px 15px 0px 15px;
   display: flex;
@@ -218,6 +274,19 @@
   .flexBox {
     display: flex;
     align-items: baseline;
+  }
+
+  .graphTopWrapper {
+    flex-direction: column;
+  }
+
+  .leftChart {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .blockFourTitle, .roiBlock {
+    max-width: 135px;
   }
 }
 
