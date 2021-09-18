@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/MaterialUIDashboard/static/css/main.bd112ef7.chunk.css",
+    "main.js": "/MaterialUIDashboard/static/js/main.57de0980.chunk.js",
+    "main.js.map": "/MaterialUIDashboard/static/js/main.57de0980.chunk.js.map",
+    "runtime-main.js": "/MaterialUIDashboard/static/js/runtime-main.aab3924d.js",
+    "runtime-main.js.map": "/MaterialUIDashboard/static/js/runtime-main.aab3924d.js.map",
+    "static/js/2.1ad845e4.chunk.js": "/MaterialUIDashboard/static/js/2.1ad845e4.chunk.js",
+    "static/js/2.1ad845e4.chunk.js.map": "/MaterialUIDashboard/static/js/2.1ad845e4.chunk.js.map",
+    "index.html": "/MaterialUIDashboard/index.html",
+    "precache-manifest.015f249fef9941b0a27c89f729d00143.js": "/MaterialUIDashboard/precache-manifest.015f249fef9941b0a27c89f729d00143.js",
+    "service-worker.js": "/MaterialUIDashboard/service-worker.js",
+    "static/css/main.bd112ef7.chunk.css.map": "/MaterialUIDashboard/static/css/main.bd112ef7.chunk.css.map",
+    "static/js/2.1ad845e4.chunk.js.LICENSE.txt": "/MaterialUIDashboard/static/js/2.1ad845e4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/MaterialUIDashboard/static/media/logo.ca4d41f3.svg",
+    "static/media/profile.jpeg": "/MaterialUIDashboard/static/media/profile.7e19b77a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aab3924d.js",
+    "static/js/2.1ad845e4.chunk.js",
+    "static/css/main.bd112ef7.chunk.css",
+    "static/js/main.57de0980.chunk.js"
+  ]
+}
